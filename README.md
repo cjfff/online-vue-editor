@@ -22,7 +22,11 @@ short description + sample image(png/gif/mp4)
 
 ## Introduction
 
-vue文档事例，在线编辑，以达到更好的用户体验
+本插件为 `vue-live` 的一个 `layout` 皮肤
+
+即组件使用方式可以参考或者使用[原仓库](https://github.com/vue-styleguidist/vue-live)
+
+引用 `layout` 可以引用本插件
 
 [⬆ Back to Top](#table-of-contents)
 
@@ -34,16 +38,70 @@ vue文档事例，在线编辑，以达到更好的用户体验
 
 ```js
 npm i "online-vue-editor"
+```
 
+[⬆ Back to Top](#table-of-contents)
+
+## Usage
+
+### 不安装 `vue-live` 使用, 全局安装
+
+```js
 import Vue from 'vue'
 import OnlineVueEditor from 'online-vue-editor'
 
 Vue.use(OnlineVueEditor)
 ```
 
-[⬆ Back to Top](#table-of-contents)
+### 不安装 `vue-live` 使用, 局部安装
 
-## Usage
+```vue
+<template>
+  <online-vue-editor :code="code" />
+</template>
+
+<script>
+import OnlineVueEditor from 'online-vue-editor'
+
+export default {
+  components: {
+    OnlineVueEditor
+  },
+  data() {
+    return {
+      code: `<input type='button' value='I am ccc' />`
+    }
+  }
+}
+</script>
+```
+
+### 安装 `vue-live` ，使用本库作为 layout 引入 -- 推荐
+
+此种方式可以不受限于此库享受 `vue-live` 的最新支持，所以推荐此种使用方式
+
+```vue
+<template>
+  <vue-live :layout="OnlineVueLayout" :code="code" />
+</template>
+
+<script>
+import {VueLive} from 'vue-live'
+import {OnlineVueLayout} from 'online-vue-editor'
+
+export default {
+  components: {
+    VueLive,
+    OnlineVueEditor
+  },
+  data() {
+    return {
+      code: `<input type='button' value='I am ccc' />`
+    }
+  }
+}
+</script>
+```
 
 [⬆ Back to Top](#table-of-contents)
 

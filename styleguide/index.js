@@ -1,5 +1,7 @@
 import Vue from 'vue'
-import Element from '@femessage/element-ui'
+import {Button} from '@femessage/element-ui'
 import '@femessage/element-ui/lib/theme-chalk/index.css'
+import OnlineVueLayout from '../src/online-vue-layout'
 
-Vue.use(Element)
+Vue.component(Button.name, Button)
+Vue.component(OnlineVueLayout.name, OnlineVueLayout)

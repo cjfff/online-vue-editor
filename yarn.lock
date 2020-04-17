@@ -8391,6 +8391,16 @@ onetime@^5.1.0:
   dependencies:
     mimic-fn "^2.1.0"
 
+online-vue-editor@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/online-vue-editor/download/online-vue-editor-1.1.0.tgz#97f3b7faf022576e24271bc3849562c529fc819a"
+  integrity sha1-l/O3+vAiV24kJxvDhJVixSn8gZo=
+  dependencies:
+    "@femessage/element-ui" "^2.16.0"
+    prismjs "^1.19.0"
+    vue-live "^1.5.1"
+    vue-prism-editor "^0.5.1"
+
 open@^6.3.0:
   version "6.4.0"
   resolved "https://registry.npm.taobao.org/open/download/open-6.4.0.tgz?cache=0&sync_timestamp=1583734709844&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fopen%2Fdownload%2Fopen-6.4.0.tgz#5c13e96d0dc894686164f18965ecfe889ecfc8a9"
@@ -12199,7 +12209,7 @@ vue-inbrowser-compiler@^3.21.0, vue-inbrowser-compiler@^3.23.0:
     camelcase "^5.3.1"
     walkes "^0.2.1"
 
-vue-live@^1.8.0:
+vue-live@^1.5.1, vue-live@^1.8.0:
   version "1.8.0"
   resolved "https://registry.npm.taobao.org/vue-live/download/vue-live-1.8.0.tgz#acdd6f2352a01dbddc32002f16a3bf5c9cfff4fc"
   integrity sha1-rN1vI1KgHb3cMgAvFqO/XJz/9Pw=
