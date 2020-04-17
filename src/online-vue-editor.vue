@@ -76,6 +76,23 @@ export default {
     layoutProps: {
       type: Object,
       default: undefined
+    },
+    /**
+     * Props of vue-prism-editor
+     * @example { lineNumbers: true }
+     * @see https://github.com/koca/vue-prism-editor
+     */
+    editorProps: {
+      type: Object,
+      default: () => ({lineNumbers: true})
+    },
+    /**
+     * Outside data to the preview
+     * @example { count: 1 }
+     */
+    dataScope: {
+      type: Object,
+      default: () => ({})
     }
   },
 

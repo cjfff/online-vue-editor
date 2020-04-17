@@ -12199,10 +12199,10 @@ vue-inbrowser-compiler@^3.21.0, vue-inbrowser-compiler@^3.23.0:
     camelcase "^5.3.1"
     walkes "^0.2.1"
 
-vue-live@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.npm.taobao.org/vue-live/download/vue-live-1.5.1.tgz#6c2f432a5d2ae37c43d64500ca47f29391695f10"
-  integrity sha1-bC9DKl0q43xD1kUAykfyk5FpXxA=
+vue-live@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.npm.taobao.org/vue-live/download/vue-live-1.8.0.tgz#acdd6f2352a01dbddc32002f16a3bf5c9cfff4fc"
+  integrity sha1-rN1vI1KgHb3cMgAvFqO/XJz/9Pw=
   dependencies:
     core-js "^2.6.5"
     debounce "^1.2.0"

@@ -3,15 +3,24 @@
 ```vue
 <template>
   <online-vue-editor :code="`<template>
-  <el-button>这是element-ui的按钮</el-button>
-</template>`"/>
-</template>
-
+  <el-button @click='click'>这是element-ui的按钮 {{msg}}</el-button>
+</template> 
 <script>
+
 export default {
   data() {
-    return {}
+    return {
+      msg: 'hello worlld'
+    }
+  },
+  methods: {
+    click() {
+      alert('hello')
+    }
   }
 }
-</script>
+</script>`"/>
+</template>
+
+
 ```

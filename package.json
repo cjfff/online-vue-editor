@@ -40,7 +40,7 @@
   "dependencies": {
     "@femessage/element-ui": "^2.16.0",
     "prismjs": "^1.19.0",
-    "vue-live": "^1.5.1",
+    "vue-live": "^1.8.0",
     "vue-prism-editor": "^0.5.1"
   },
   "devDependencies": {
